@@ -508,9 +508,9 @@
     },
     {
       “关键”：“meowtv_49ys”，
-      "name": "四九┃资源",
+      "name": "尚品┃资源",
       “类型”：1，
-      "api": "https://49zyw.com/api.php/provide/vod/?ac=list",
+      "api": "https://www.yunmovie.site/api.php/provide/vod/?ac=list",
       “可搜索”：1，
       “快速搜索”：1，
       “可过滤”：1，
