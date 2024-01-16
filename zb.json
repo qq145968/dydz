@@ -4,16 +4,511 @@
   “网站”：[
     {
       "key": "豆豆",
-      "name": "?缝纫机盒",
+      "name": "❦缝纫机盒",
       “类型”：3，
       "api": "csp_DouDou",
       “可搜索”：0，
       “快速搜索”：0，
       “可过滤”：0
-    },    
+    },
     {
-      “关键”：“yunmocie”，
-      "name": "云尚品资源",
+      "key": "玩偶哥哥",
+      "name": "👽玩偶┃4K弹幕",
+      “类型”：3，
+      “api”：“csp_WoGG”，
+      “可搜索”：1，
+      “快速搜索”：1，
+      “可变”：0，
+      "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd$$$https://wogg.xyz/$$$弹"
+    },
+    {
+      “密钥”：“YGP”，
+      "name": "🚀荐片┃速递",
+      “类型”：3，
+      “api”：“csp_YGP”，
+      “可搜索”：0，
+      “快速搜索”：0，
+      “可变”：0
+    },
+    {
+      "key": "meowtv_ngys",
+      "name": "南瓜┃影视",
+      “类型”：3，
+      "api": "csp_NanGua",
+      “可搜索”：1，
+      “快速搜索”：1，
+      “可变”：1、
+      “玩家类型”：2
+    },
+    {
+      "key": "meowtv_zxzj",
+      "name": "在线┃影视",
+      “类型”：3，
+      "api": "csp_Zxzj",
+      “可搜索”：1，
+      “快速搜索”：1，
+      “可变”：1、
+      "ext": "https://www.zxzj.pro/",
+      "jar": "http://meowtv.cn/meow3;md5;893D0391C828FD753EE4055EB5D4751A"
+    },
+    {
+      "key": "meowtv_Atys",
+      "name": "奥特┃影视",
+      “类型”：3，
+      "api": "csp_Auete",
+      “可搜索”：1，
+      “快速搜索”：1，
+      “可过滤”：1，
+      “玩家类型”：2
+    },
+    {
+      "key": "meowtv_sjys",
+      "name": "┃影视",
+      “类型”：3，
+      "api": "csp_Xinsj",
+      “可搜索”：1，
+      “快速搜索”：1，
+      “可变”：1、
+      “ext”：“https://www.hdmyy.com/”
+    },
+    {
+      "key": "meowtv_Libo",
+      "name": "利播┃影视",
+      “类型”：3，
+      “api”：“csp_Libvio”，
+      “可搜索”：1，
+      “快速搜索”：1，
+      “可变”：1、
+      “ext”：“https://www.libvio.pro/”
+    },
+    {
+      "key": "meowtv_mlys",
+      "name": "毛驴┃影视",
+      “类型”：3，
+      “api”：“csp_MLYS”，
+      “可搜索”：1，
+      “快速搜索”：1，
+      “可变”：1、
+      “ext”：“https://www.maolvys.com/”
+    },
+    {
+      "key": "meowtv_77yy",
+      "name": "七七┃影视",
+      “类型”：3，
+      "api": "csp_Kunyu77",
+      “可搜索”：1，
+      “快速搜索”：1，
+      “可变”：1、
+      "jar": "http://meowtv.cn/meow3;md5;893D0391C828FD753EE4055EB5D4751A"
+    },
+    {
+      "key": "meowtv_yqks",
+      "name": "一起┃影视",
+      “类型”：3，
+      "api": "csp_YQKan",
+      “可搜索”：1，
+      “快速搜索”：1，
+      “可变”：1
+    },
+    {
+      "key": "meowtv_Btoo",
+      "name": "比特┃影视",
+      “类型”：3，
+      “api”：“csp_Bttwoo”，
+      “可搜索”：1，
+      “快速搜索”：1，
+      “可变”：1
+    },
+    {
+      "key": "meowtv_bdys",
+      "name": "哔嘀┃影视",
+      “类型”：3，
+      "api": "csp_XYQHiker",
+      “可搜索”：1，
+      “快速搜索”：1，
+      “可过滤”：1，
+      "ext": "http://cdn.meowtv.cn/xp/哔嘀影视.json",
+      "jar": "http://meowtv.cn/meow4;md5;369DE8C4321A5C0ED6E7497F93863319"
+    },
+    {
+      "key": "meowtv_jlys",
+      "name": "嘉靓┃影视",
+      “类型”：3，
+      "api": "http://cdn.meowtv.cn/js/drpy2.min.js",
+      “可搜索”：1，
+      “快速搜索”：1，
+      “可变”：0，
+      "ext": "http://cdn.meowtv.cn/js/嘉靓影视.js"
+    },
+    {
+      "key": "meowtv_zzys",
+      "name": "赞赞┃影视",
+      “类型”：3，
+      "api": "http://cdn.meowtv.cn/js/drpy2.min.js",
+      “可搜索”：1，
+      “快速搜索”：1，
+      “可变”：0，
+      "ext": "http://cdn.meowtv.cn/js/赞赞影视.js"
+    },
+    {
+      "key": "meowtv_hhys",
+      "name": "吼吼┃影视",
+      “类型”：3，
+      "api": "http://cdn.meowtv.cn/js/drpy2.min.js",
+      “可搜索”：1，
+      “快速搜索”：1，
+      “可过滤”：1，
+      "ext": "http://cdn.meowtv.cn/js/吼吼影视.js"
+    },
+    {
+      "key": "meowtv_sxys",
+      "name": "师兄┃影视",
+      “类型”：3，
+      "api": "http://cdn.meowtv.cn/js/drpy2.min.js",
+      “可搜索”：1，
+      “快速搜索”：1，
+      “可过滤”：1，
+      "ext": "http://cdn.meowtv.cn/js/师兄影视.js"
+    },
+    {
+      "key": "meowtv_dyxs",
+      "name": "先生┃影视",
+      “类型”：3，
+      "api": "http://cdn.meowtv.cn/js/drpy2.min.js",
+      “可搜索”：1，
+      “快速搜索”：1，
+      “可过滤”：1，
+      "ext": "http://cdn.meowtv.cn/js/电影先生.js"
+    },
+    {
+      "key": "meowtv_kkys",
+      "name": "快看┃影视",
+      “类型”：3，
+      "api": "csp_快看",
+      “可搜索”：1，
+      “快速搜索”：1，
+      “可过滤”：1，
+      "jar": "http://meowtv.cn/meow2;md5;3BF23E86FE87305252E9D469ABF751C5"
+    },
+    {
+      "key": "meowtv_nmys",
+      "name": "农民┃影视",
+      “类型”：3，
+      "api": "csp_Nmys",
+      “可搜索”：1，
+      “快速搜索”：1，
+      “可变”：1、
+      "ext": "http://cdn.meowtv.cn/xp/农民影视.json"
+    },
+    {
+      "key": "meowtv_Free",
+      "name": "免费┃影视",
+      “类型”：3，
+      “api”：“csp_XBPQ”，
+      “可搜索”：1，
+      “快速搜索”：1，
+      “可过滤”：1，
+      "ext": "http://cdn.meowtv.cn/xp/免费影视.json"
+    },
+    {
+      "key": "meowtv_qyyy",
+      "name": "奇优┃影视",
+      “类型”：3，
+      “api”：“csp_XBPQ”，
+      “可搜索”：1，
+      “快速搜索”：1，
+      “可过滤”：1，
+      "ext": "http://cdn.meowtv.cn/xp/奇优影院.json"
+    },
+    {
+      "key": "meowtv_348D",
+      "name": "蓝光┃影视",
+      “类型”：3，
+      “api”：“csp_XBPQ”，
+      “可搜索”：1，
+      “快速搜索”：1，
+      “可过滤”：1，
+      "ext": "http://cdn.meowtv.cn/xp/蓝光电影.json",
+      "jar": "http://meowtv.cn/meow2;md5;3BF23E86FE87305252E9D469ABF751C5"
+    },
+    {
+      "key": "meowtv_hxys",
+      "name": "好戏┃影视",
+      “类型”：3，
+      “api”：“csp_XBPQ”，
+      “可搜索”：1，
+      “快速搜索”：1，
+      “可过滤”：1，
+      "ext": "http://cdn.meowtv.cn/xp/好戏影视.json"
+    },
+    {
+      "key": "meowtv_phys",
+      "name": "胖虎┃影视",
+      “类型”：3，
+      “api”：“csp_XBPQ”，
+      “可搜索”：1，
+      “快速搜索”：1，
+      “可过滤”：1，
+      "ext": "http://cdn.meowtv.cn/xp/胖虎影视.json"
+    },
+    {
+      "key": "meowtv_dgys",
+      "name": "达龟┃影视",
+      “类型”：3，
+      “api”：“csp_XPathFilter”，
+      “可搜索”：1，
+      “快速搜索”：1，
+      “可过滤”：1，
+      "ext": "http://cdn.meowtv.cn/xp/达龟影视.json"
+    },
+    {
+      "key": "meowtv_akyy",
+      "name": "爱看┃影视",
+      “类型”：3，
+      "api": "csp_XYQHiker",
+      “可搜索”：1，
+      “快速搜索”：1，
+      “可过滤”：1，
+      "ext": "http://cdn.meowtv.cn/xp/爱看影视.json",
+      "jar": "http://meowtv.cn/meow4;md5;369DE8C4321A5C0ED6E7497F93863319"
+    },
+    {
+      "key": "meowtv_scys",
+      "name": "圣城┃影视",
+      “类型”：3，
+      “api”：“csp_XBPQ”，
+      “可搜索”：1，
+      “快速搜索”：1，
+      “可过滤”：1，
+      "ext": "http://cdn.meowtv.cn/xp/圣城影视.json"
+    },
+    {
+      "key": "meowtv_sbys",
+      "name": "素白┃影视",
+      “类型”：3，
+      "api": "csp_XYQHiker",
+      “可搜索”：1，
+      “快速搜索”：1，
+      “可过滤”：1，
+      "ext": "http://cdn.meowtv.cn/xp/素白影视.json",
+      "jar": "http://meowtv.cn/meow4;md5;369DE8C4321A5C0ED6E7497F93863319"
+    },
+    {
+      "key": "meowtv_tvbb",
+      "name": "TVB ┃影视",
+      “类型”：3，
+      “api”：“csp_XBPQ”，
+      “可搜索”：1，
+      “快速搜索”：1，
+      “可过滤”：1，
+      "ext": "http://cdn.meowtv.cn/xp/TVB云播.json"
+    },
+    {
+      "key": "meowtv_syys",
+      "name": "速映┃影视",
+      “类型”：3，
+      “api”：“csp_XBPQ”，
+      “可搜索”：1，
+      “快速搜索”：1，
+      “可过滤”：1，
+      "ext": "http://cdn.meowtv.cn/xp/速映影视.json"
+    },
+    {
+      "key": "meowtv_wnys",
+      "name": "蜗牛┃影视",
+      “类型”：3，
+      “api”：“csp_XBPQ”，
+      “可搜索”：1，
+      “快速搜索”：1，
+      “可过滤”：1，
+      "ext": "http://cdn.meowtv.cn/xp/蜗牛影视.json"
+    },
+    {
+      "key": "meowtv_mgys",
+      "name": "蘑菇┃影视",
+      “类型”：3，
+      “api”：“csp_XBPQ”，
+      “可搜索”：1，
+      “快速搜索”：1，
+      “可过滤”：1，
+      "ext": "http://cdn.meowtv.cn/xp/蘑菇影视.json",
+      "jar": "http://meowtv.cn/meow2;md5;3BF23E86FE87305252E9D469ABF751C5"
+    },
+    {
+      “关键”：“meowtv_adys”，
+      "name": "爱迪┃影视",
+      “类型”：3，
+      "api": "csp_AppYsV2",
+      “可搜索”：1，
+      “快速搜索”：1，
+      “可过滤”：1，
+      “ext”：“https://api123.adys.app/xgapp.php/v3/”
+    },
+    {
+      "key": "meowtv_ddys",
+      "name": "低端┃影视",
+      “类型”：3，
+      "api": "csp_Ddrk",
+      “可搜索”：1，
+      “快速搜索”：1，
+      “可变”：1、
+      “玩家类型”：2
+    },
+    {
+      "key": "meowtv_czys",
+      "name": "厂长┃影视",
+      “类型”：3，
+      "api": "csp_Czsapp",
+      “可搜索”：1，
+      “快速搜索”：1，
+      “可变”：1、
+      “ext”：“https://www.czzy88.com/”
+    },
+    {
+      "key": "meowtv_ttys",
+      "name": "影探┃影视",
+      “类型”：3，
+      "api": "csp_YTVIP",
+      “可搜索”：1，
+      “快速搜索”：1，
+      “可变”：1、
+      "ext": "vip.lyyytv.cn"
+    },
+    {
+      "key": "meowtv_rzys",
+      "name": "忍者┃影视",
+      “类型”：3，
+      “api”：“csp_MYYS”，
+      “可搜索”：1，
+      “快速搜索”：1，
+      “可变”：1、
+      “ext”：“http://rzys.xyz”
+    },
+    {
+      "key": "meowtv_aays",
+      "name": "嗷嗷┃影视",
+      “类型”：3，
+      “api”：“csp_XBPQ”，
+      “可搜索”：1，
+      “快速搜索”：1，
+      “可过滤”：1，
+      “分机”：{
+        "分类url": "https://aoao.tv/vodshow/{cateId}--------{catePg}---.html",
+        "分类": "短剧$20#电视剧$21#电影$22#动漫$23#综艺$24"
+      },
+      "jar": "http://meowtv.cn/meow2;md5;3BF23E86FE87305252E9D469ABF751C5"
+    },
+    {
+      "key": "meowtv_yszj",
+      "name": "之家┃影视",
+      “类型”：3，
+      "api": "csp_AppYsV2",
+      “可搜索”：1，
+      “快速搜索”：1，
+      “可过滤”：1，
+      "ext": "http://yingszj.xn--654a.cc/api.php/app/",
+      "jar": "http://meowtv.cn/meow2;md5;3BF23E86FE87305252E9D469ABF751C5"
+    },
+    {
+      "key": "meowtv_mmys",
+      "name": "喵喵┃影视",
+      “类型”：3，
+      "api": "csp_AppYsV2",
+      “可搜索”：1，
+      “快速搜索”：1，
+      “可过滤”：1，
+      "ext": "https://www.gsjtlxy.top/xgapp.php/v3/",
+      "jar": "http://meowtv.cn/meow2;md5;3BF23E86FE87305252E9D469ABF751C5"
+    },
+    {
+      "key": "meowtv_69mj",
+      "name": "六九影视",
+      “类型”：3，
+      "api": "csp_AppYsV2",
+      “可搜索”：1，
+      “快速搜索”：1，
+      “可过滤”：1，
+      "ext": "https://www.69mj.com/xgapp.php/v2/",
+      "jar": "http://meowtv.cn/meow2;md5;3BF23E86FE87305252E9D469ABF751C5"
+    },
+    {
+      "key": "meowtv_A8ys",
+      "name": "爱八┃影视",
+      “类型”：3，
+      “api”：“csp_AppYs”，
+      “可搜索”：1，
+      “快速搜索”：1，
+      “可过滤”：1，
+      "ext": "https://aaa.a8ys.xyz/ruifenglb_api.php/v1.vod",
+      "jar": "http://meowtv.cn/meow4;md5;369DE8C4321A5C0ED6E7497F93863319"
+    },
+    {
+      "key": "meowtv_cgys",
+      "name": "菜狗┃影视",
+      “类型”：3，
+      "api": "http://cdn.meowtv.cn/js/drpy2.min.js",
+      “可搜索”：1，
+      “快速搜索”：1，
+      “可过滤”：1，
+      "ext": "http://cdn.meowtv.cn/js/菜狗影视.js"
+    },
+    {
+      "key": "meowtv_jpyy",
+      "name": "荐片┃影视",
+      “类型”：3，
+      "api": "http://cdn.meowtv.cn/js/drpy2.min.js",
+      “可搜索”：1，
+      “快速搜索”：1，
+      “可变”：1、
+      "ext": "http://cdn.meowtv.cn/js/荐片影视.js"
+    },
+    {
+      "key": "meowtv_shys",
+      "name": "骚火┃影视",
+      “类型”：3，
+      "api": "http://cdn.meowtv.cn/js/drpy2.min.js",
+      “可搜索”：1，
+      “快速搜索”：1，
+      “可过滤”：1，
+      "ext": "http://cdn.meowtv.cn/js/骚火影视.js"
+    },
+    {
+      "key": "meowtv_xcys",
+      "name": "星辰┃影视",
+      “类型”：3，
+      “api”：“csp_XBPQ”，
+      “可搜索”：1，
+      “快速搜索”：1，
+      “可过滤”：1，
+      "ext": "http://cdn.meowtv.cn/xp/星辰影视.json"
+    },
+    {
+      “密钥”：“meowtv_996y”，
+      "name": "酒六┃影视",
+      “类型”：3，
+      “api”：“csp_XBPQ”，
+      “可搜索”：1，
+      “快速搜索”：1，
+      “可过滤”：1，
+      “分机”：{
+        "分类url": "https://www.cs1369.com/show/id/index.php/vod/show/area/{area}/id/{cateId}/page/{catePg}/year/{year }.html",
+        "分类": "电影$1#电视剧$2#动漫$3#爽文短剧$4#动作片$6#喜剧片$7#爱情片$8#科幻片$9#恐怖片$10#剧情片$11#战争片$12#动画$13#纪录片$14",
+        "筛选": "1"
+      }
+    },
+    {
+      "key": "meowtv_lrys",
+      "name": "路人┃影视",
+      “类型”：1，
+      "api": "https://www.dytt996.com/api.php/provide/vod/?ac=list",
+      “可搜索”：1，
+      “快速搜索”：1，
+      “可过滤”：1，
+      "playUrl": "json:https://gg.dytt996.com/quad.php?url="
+    },
+    {
+      “关键”：“meowtv_49ys”，
+      "name": "尚品┃资源",
       “类型”：1，
       "api": "https://www.yunmovie.site/api.php/provide/vod/?ac=list",
       “可搜索”：1，
@@ -54,6 +549,566 @@
         "体育赛事",
         《海外剧》
       ]
+    },
+    {
+      "key": "meowtv_lzzy",
+      "name": "量子┃资源",
+      “类型”：1，
+      "api": "http://cj.lziapi.com/api.php/provide/vod/",
+      “可搜索”：1，
+      “快速搜索”：1，
+      “可过滤”：0，
+      "playurl": "json:http://jx.84jia.com/m3u8ts.php?url=",
+      “类别”：[
+        "国产剧",
+        “国产动漫”，
+        《泰国剧》,
+        《台湾剧》、
+        《香港剧》,
+        《欧美剧》,
+        《韩国剧》,
+        《日本剧》,
+        “动漫”，
+        “体育”,
+        “剧情片”,
+        “动作片”，
+        “爱情片”,
+        “喜剧片”
+      ]
+    },
+    {
+      "key": "meowtv_ffzy",
+      "name": "非凡┃资源",
+      “类型”：1，
+      "api": "http://cj.ffzyapi.com/api.php/provide/vod/",
+      “可搜索”：1，
+      “快速搜索”：1，
+      “可过滤”：1，
+      "playurl": "json:http://jx.84jia.com/m3u8ts.php?url=",
+      “类别”：[
+        “动作片”，
+        “喜剧片”,
+        “科幻片”，
+        “恐怖片”，
+        “爱情片”,
+        “剧情片”,
+        “战争片”，
+        "记录片",
+        "国产剧",
+        《欧美剧》,
+        《香港剧》,
+        《韩国剧》,
+        《台湾剧》、
+        《日本剧》,
+        《海外剧》,
+        《泰国剧》,
+        “国产动漫”，
+        《日韩动漫》,
+        “欧美动漫”,
+        《港台动漫》、
+        《海外动漫》、
+        《大陆综艺》,
+        《港台综艺》,
+        《日韩综艺》,
+        《欧美综艺》
+      ]
+    },
+    {
+      "key": "meowtv_kkzy",
+      "name": "快看┃资源",
+      “类型”：1，
+      "api": "https://kuaikan-api.com/api.php/provide/vod/from/kuaikan/",
+      “可搜索”：1，
+      “快速搜索”：1，
+      “可过滤”：1，
+      "playurl": "json:http://jx.84jia.com/m3u8ts.php?url=",
+      “类别”：[
+        "国产剧",
+        《港台剧》,
+        “国产动漫”，
+        《日韩剧》,
+        《欧美剧》,
+        《海外剧》,
+        “动作片”，
+        “爱情片”,
+        “剧情片”,
+        “科幻片”，
+        “奇幻片”,
+        “战争片”，
+        《犯罪片》、
+        “恐怖片”，
+        《悬疑片》,
+        "惊悚片",
+        《冒险片》
+      ]
+    },
+    {
+      "key": "meowtv_snzy",
+      "name": "索尼┃资源",
+      “类型”：1，
+      "api": "https://suoniapi.com/api.php/provide/vod/?ac=list",
+      “可搜索”：1，
+      “快速搜索”：1，
+      “可过滤”：1，
+      “类别”：[
+        “动作片”，
+        “喜剧片”,
+        “科幻片”，
+        “恐怖片”，
+        “爱情片”,
+        “剧情片”,
+        “战争片”，
+        "记录片",
+        "国产剧",
+        《欧美剧》,
+        《香港剧》,
+        《韩国剧》,
+        《台湾剧》、
+        《日本剧》,
+        《海外剧》,
+        《泰国剧》,
+        “国产动漫”，
+        《日韩动漫》,
+        “欧美动漫”,
+        《港台动漫》、
+        《海外动漫》、
+        《大陆综艺》,
+        《港台综艺》,
+        《日韩综艺》,
+        《欧美综艺》
+      ]
+    },
+    {
+      "key": "meowtv_bfzy",
+      "name": "暴风┃资源",
+      “类型”：1，
+      "api": "https://bfzyapi.com/api.php/provide/vod/?ac=list",
+      “可搜索”：1，
+      “快速搜索”：1，
+      “可过滤”：1，
+      "jar": "http://meowtv.cn/meow2;md5;3BF23E86FE87305252E9D469ABF751C5",
+      “类别”：[
+        "国产剧",
+        “国产动漫”，
+        《大陆综艺》,
+        《港台综艺》,
+        《香港剧》,
+        《台湾剧》、
+        《日本剧》,
+        《欧美剧》,
+        《泰国剧》,
+        “日本动漫”，
+        《日本综艺》,
+        《综艺频道》,
+        《新马泰综艺》,
+        “纪录片”，
+        “科幻片”，
+        “喜剧片”,
+        《战争片》
+      ]
+    },
+    {
+      “关键”：“meowtv_33ys”，
+      "name": "三六┃视频",
+      “类型”：3，
+      “api”：“csp_SP33”，
+      “可搜索”：1，
+      “快速搜索”：1，
+      “可变”：0
+    },
+    {
+      "key": "meowtv_qysp",
+      "name": "奇艺┃视频",
+      “类型”：3，
+      "api": "http://cdn.meowtv.cn/js/drpy2.min.js",
+      “可搜索”：1，
+      “快速搜索”：1，
+      “可过滤”：1，
+      "ext": "http://cdn.meowtv.cn/js/奇艺视频.js"
+    },
+    {
+      "key": "meowtv_txsp",
+      "name": "腾讯┃视频",
+      “类型”：3，
+      "api": "http://cdn.meowtv.cn/js/drpy2.min.js",
+      “可搜索”：1，
+      “快速搜索”：1，
+      “可过滤”：1，
+      "ext": "http://cdn.meowtv.cn/js/腾讯视频.js"
+    },
+    {
+      "key": "meowtv_yksp",
+      "name": "优酷┃视频",
+      “类型”：3，
+      "api": "http://cdn.meowtv.cn/js/drpy2.min.js",
+      “可搜索”：1，
+      “快速搜索”：1，
+      “可过滤”：1，
+      "ext": "http://cdn.meowtv.cn/js/优酷视频.js"
+    },
+    {
+      "key": "meowtv_mgsp",
+      "name": "芒果┃视频",
+      “类型”：3，
+      "api": "http://cdn.meowtv.cn/js/drpy2.min.js",
+      “可搜索”：1，
+      “快速搜索”：1，
+      “可过滤”：1，
+      "ext": "http://cdn.meowtv.cn/js/芒果视频.js"
+    },
+    {
+      "key": "meowtv_djsp",
+      "name": "番茄┃短剧",
+      “类型”：3，
+      "api": "http://cdn.meowtv.cn/js/drpy2.min.js",
+      “可搜索”：1，
+      “快速搜索”：1，
+      “可过滤”：1，
+      "ext": "http://cdn.meowtv.cn/js/短剧视频.js"
+    },
+    {
+      "key": "meowtv_rxdj",
+      "name": "锐星┃短剧",
+      “类型”：3，
+      "api": "csp_AppYsV2",
+      “可搜索”：1，
+      “快速搜索”：1，
+      “可过滤”：1，
+      “分机”：“http://122.228.84.103:6822/api.php/app/”
+    },
+    {
+      "key": "meowtv_kbcl",
+      "name": "酷吧┃磁力",
+      “类型”：3，
+      "api": "http://cdn.meowtv.cn/js/drpy2.min.js",
+      “可搜索”：1，
+      “快速搜索”：1，
+      “可过滤”：1，
+      "ext": "http://cdn.meowtv.cn/js/酷吧磁力.js"
+    },
+    {
+      "key": "meowtv_ygcl",
+      "name": "影港┃磁力",
+      “类型”：3，
+      "api": "csp_XYQHiker",
+      “可搜索”：1，
+      “快速搜索”：1，
+      “可过滤”：1，
+      "ext": "http://cdn.meowtv.cn/xp/影港磁力.json",
+      "jar": "http://meowtv.cn/meow4;md5;369DE8C4321A5C0ED6E7497F93863319"
+    },
+    {
+      "key": "meowtv_4Kcl",
+      "name": "蓝光┃磁力",
+      “类型”：3，
+      "api": "http://cdn.meowtv.cn/js/drpy2.min.js",
+      “可搜索”：1，
+      “快速搜索”：1，
+      “可变”：0，
+      "ext": "http://cdn.meowtv.cn/js/蓝光磁力.js"
+    },
+    {
+      "key": "meowtv_6Vcl",
+      "name": "新6v┃磁力",
+      “类型”：3，
+      “api”：“csp_SixV”，
+      “可搜索”：1，
+      “快速搜索”：1，
+      “可变”：0，
+      “ext”：“http://www.xb6v.com/”
+    },
+    {
+      "key": "meowtv_Dm84",
+      "name": "巴士┃动漫",
+      “类型”：3，
+      “api”：“csp_Dm84”，
+      “可搜索”：1，
+      “快速搜索”：1，
+      “可变”：1
+    },
+    {
+      "key": "meowtv_Ying",
+      "name": "樱花┃动漫",
+      “类型”：3，
+      "api": "csp_Ying",
+      “可搜索”：1，
+      “快速搜索”：1，
+      “可变”：1
+    },
+    {
+      "key": "meowtv_Anim",
+      "name": "日漫┃动漫",
+      “类型”：3，
+      "api": "csp_Anime1",
+      “可搜索”：1，
+      “快速搜索”：1，
+      “可变”：1
+    },
+    {
+      "key": "meowtv_yjdm",
+      "name": "异界┃动漫",
+      “类型”：3，
+      “api”：“csp_Ysj”，
+      “可搜索”：1，
+      “快速搜索”：1，
+      “可变”：1
+    },
+    {
+      "key": "meowtv_88kq",
+      "name": "八八┃体育",
+      “类型”：3，
+      "api": "http://cdn.meowtv.cn/js/drpy2.min.js",
+      “可搜索”：0，
+      “快速搜索”：0，
+      “可变”：0，
+      "ext": "http://cdn.meowtv.cn/js/八八体育.js"
+    },
+    {
+      "key": "meowtv_qmty",
+      "name": "JRK ┃体育",
+      “类型”：3，
+      "api": "http://cdn.meowtv.cn/js/drpy2.min.js",
+      “可搜索”：0，
+      “快速搜索”：0，
+      “可变”：0，
+      "ext": "http://cdn.meowtv.cn/js/JRK体育.js"
+    },
+    {
+      "key": "meowtv_310q",
+      "name": "三一┃体育",
+      “类型”：3，
+      "api": "http://cdn.meowtv.cn/js/drpy2.min.js",
+      “可搜索”：0，
+      “快速搜索”：0，
+      “可变”：0，
+      "ext": "http://cdn.meowtv.cn/js/三一体育.js"
+    },
+    {
+      "key": "meowtv_gdty",
+      "name": "格斗┃体育",
+      “类型”：3，
+      "api": "http://cdn.meowtv.cn/js/drpy2.min.js",
+      “可搜索”：1，
+      “快速搜索”：1，
+      “可过滤”：0，
+      "ext": "http://cdn.meowtv.cn/js/格斗体育.js"
+    },
+    {
+      "key": "meowtv_qety",
+      "name": "企鹅┃体育",
+      “类型”：3，
+      “api”：“csp_XPath”，
+      “可搜索”：0，
+      “快速搜索”：0，
+      “可变”：0，
+      "ext": "http://cdn.meowtv.cn/xp/企鹅体育.json"
+    },
+    {
+      "key": "meowtv_mxmv",
+      "name": "明星┃ MV ",
+      “类型”：1，
+      "api": "https://mv.wogg.link/mv/vod",
+      “可搜索”：1，
+      “快速搜索”：0，
+      “可变”：0
+    },
+    {
+      "key": "meowtv_kqmv",
+      "name": "酷奇┃ MV ",
+      “类型”：3，
+      "api": "http://cdn.meowtv.cn/js/drpy2.min.js",
+      “可搜索”：0，
+      “快速搜索”：0，
+      “可变”：0，
+      "ext": "http://cdn.meowtv.cn/js/酷奇视频.js"
+    },
+    {
+      "key": "meowtv_hyzb",
+      "name": "虎牙┃直播",
+      “类型”：3，
+      "api": "http://cdn.meowtv.cn/js/drpy2.min.js",
+      “可搜索”：0，
+      “快速搜索”：0，
+      “可变”：0，
+      "ext": "http://cdn.meowtv.cn/js/虎牙直播.js"
+    },
+    {
+      "key": "meowtv_dyzb",
+      "name": "斗鱼┃直播",
+      “类型”：3，
+      "api": "http://cdn.meowtv.cn/js/drpy2.min.js",
+      “可搜索”：0，
+      “快速搜索”：0，
+      “可变”：0，
+      "ext": "http://cdn.meowtv.cn/js/斗鱼直播.js"
+    },
+    {
+      "key": "meowtv_blzb",
+      "name": "哔哩┃直播",
+      “类型”：3，
+      "api": "http://cdn.meowtv.cn/js/drpy2.min.js",
+      “可搜索”：0，
+      “快速搜索”：0，
+      “可过滤”：0，
+      "ext": "http://cdn.meowtv.cn/js/哔哩直播.js"
+    },
+    {
+      "key": "meowtv_jhzb",
+      "name": "聚合┃直播",
+      “类型”：3，
+      “api”：“csp_Yj1211”，
+      “可搜索”：1，
+      “快速搜索”：1，
+      “可变”：1
+    },
+    {
+      "key": "meowtv_jdsp",
+      "name": "聚短┃视频",
+      “类型”：3，
+      "api": "http://cdn.meowtv.cn/js/drpy2.min.js",
+      “可搜索”：0，
+      “快速搜索”：0，
+      “可变”：0，
+      "ext": "http://cdn.meowtv.cn/js/聚短视频.js"
+    },
+    {
+      "key": "meowtv_ysxs",
+      "name": "有声┃小说",
+      “类型”：3，
+      "api": "http://cdn.meowtv.cn/js/drpy2.min.js",
+      “可搜索”：0，
+      “快速搜索”：0，
+      “可变”：0，
+      "ext": "http://cdn.meowtv.cn/js/有声小说.js"
+    },
+    {
+      "key": "meowtv_blhj",
+      "name": "哔哩┃合集",
+      “类型”：3，
+      "api": "csp_Bili",
+      “可搜索”：1，
+      “快速搜索”：0，
+      “可变”：0，
+      "ext": "http://cdn.meowtv.cn/xp/哔哩合集.json"
+    },
+    {
+      "key": "meowtv_blgq",
+      "name": "哔哩┃歌曲",
+      “类型”：3，
+      "api": "csp_Bili",
+      “可搜索”：1，
+      “快速搜索”：0，
+      “可变”：0，
+      "ext": "http://cdn.meowtv.cn/xp/哔哩歌曲.json"
+    },
+    {
+      "key": "meowtv_jjjx",
+      "name": "急救┃教学",
+      “类型”：3，
+      "api": "csp_FirstAid",
+      “可搜索”：0，
+      “快速搜索”：0，
+      “可变”：0
+    },
+    {
+      "key": "meowtv_txdh",
+      "name": "腾讯┃动画",
+      “类型”：3，
+      "api": "http://cdn.meowtv.cn/js/drpy2.min.js",
+      “可搜索”：1，
+      “快速搜索”：1，
+      “可过滤”：1，
+      "ext": "http://cdn.meowtv.cn/js/腾讯动画.js"
+    },
+    {
+      "key": "meowtv_qydh",
+      "name": "奇艺┃动画",
+      “类型”：3，
+      "api": "http://cdn.meowtv.cn/js/drpy2.min.js",
+      “可搜索”：1，
+      “快速搜索”：1，
+      “可过滤”：1，
+      "ext": "http://cdn.meowtv.cn/js/奇艺动画.js"
+    },
+    {
+      "key": "meowtv_mgdh",
+      "name": "芒果┃动画",
+      “类型”：3，
+      "api": "http://cdn.meowtv.cn/js/drpy2.min.js",
+      “可搜索”：1，
+      “快速搜索”：1，
+      “可过滤”：1，
+      "ext": "http://cdn.meowtv.cn/js/芒果动画.js"
+    },
+    {
+      "key": "meowtv_tqss",
+      "name": "童趣┃搜视",
+      “类型”：3，
+      "api": "http://cdn.meowtv.cn/js/drpy2.min.js",
+      “可搜索”：1，
+      “快速搜索”：1，
+      “可过滤”：1，
+      "ext": "http://cdn.meowtv.cn/js/童趣搜视.js"
+    },
+    {
+      "key": "meowtv_etqm",
+      "name": "儿童┃启蒙",
+      “类型”：3，
+      "api": "http://cdn.meowtv.cn/js/drpy2.min.js",
+      “可搜索”：0，
+      “快速搜索”：0，
+      “可变”：0，
+      "ext": "http://cdn.meowtv.cn/js/儿童启蒙.js"
+    },
+    {
+      "key": "meowtv_dtgx",
+      "name": "灯塔┃国学",
+      “类型”：3，
+      "api": "csp_Bili",
+      “可搜索”：0，
+      “快速搜索”：1，
+      “可过滤”：1，
+      "ext": "http://cdn.meowtv.cn/xp/灯塔国学.json"
+    },
+    {
+      "key": "meowtv_sejy",
+      "name": "少儿┃教育",
+      “类型”：3，
+      "api": "csp_Bili",
+      “可搜索”：0，
+      “快速搜索”：0，
+      “可变”：0，
+      "ext": "http://cdn.meowtv.cn/xp/少儿教育.json"
+    },
+    {
+      "key": "meowtv_xxkt",
+      "name": "小学┃课堂",
+      “类型”：3，
+      "api": "csp_Bili",
+      “可搜索”：0，
+      “快速搜索”：0，
+      “可变”：0，
+      "ext": "http://cdn.meowtv.cn/xp/小学课堂.json"
+    },
+    {
+      "key": "meowtv_czkt",
+      "name": "初中┃课堂",
+      “类型”：3，
+      "api": "csp_Bili",
+      “可搜索”：0，
+      “快速搜索”：0，
+      “可变”：0，
+      "ext": "http://cdn.meowtv.cn/xp/初中课堂.json"
+    },
+    {
+      "key": "meowtv_gzkt",
+      "name": "高中┃课堂",
+      “类型”：3，
+      "api": "csp_Bili",
+      “可搜索”：0，
+      “快速搜索”：0，
+      “可变”：0，
+      "ext": "http://cdn.meowtv.cn/xp/高中课堂.json"
     },
     {
       "key": "缝纫机盒",
